@@ -1,6 +1,6 @@
 {
   "name": "sugar-template-scaffold",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "sugar template loader",
   "main": "index.js",
   "scripts": {

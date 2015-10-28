@@ -17,7 +17,3 @@ Scaffold.prototype.download = function(id, cb, progress) {
 	var request = new (require('./lib/' + type))(this.options);
 	request.download(id, cb, progress);
 };
-
-Scaffold.prototype.deliver = function(from, to) {
-
-};
