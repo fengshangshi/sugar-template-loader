@@ -1,0 +1,25 @@
+{
+  "name": "sugar-template-scaffold",
+  "version": "0.0.1",
+  "description": "sugar template loader",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fengshangshi/sugar-template-loader.git"
+  },
+  "author": "fengshangshi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fengshangshi/sugar-template-loader/issues"
+  },
+  "homepage": "https://github.com/fengshangshi/sugar-template-loader#readme",
+  "dependencies": {
+    "adm-zip": "^0.4.7",
+    "lodash": "^3.10.1",
+    "md5": "^2.0.0",
+    "superagent": "^1.4.0"
+  }
+}
