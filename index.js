@@ -9,7 +9,7 @@ var Scaffold = module.exports = function(opts) {
 };
 
 Scaffold.prototype.download = function(id, cb, progress) {
-	var supports = ['github'];
+	var supports = ['gitlab', 'github'];
 	var type = this.options['type'];
 	if (!~supports.indexOf(type)) {
 		type = 'github';
